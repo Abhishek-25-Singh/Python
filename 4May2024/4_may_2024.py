@@ -30,7 +30,15 @@ print("I am",34,"Years Old")      #  I am + 34 + years old = 3 Aribtary number
 print("Pravin has", 14 , "Years of Exprience and he is",5.9,"ft tall")  # Pravin has + 14 + Years of Experience and he is + 5.9 + ft tall
 print(12, 3.4 , "String",4+5j)    # Kitne NUmber Of Data Type print() ke aandar LIkh Sakte hain
 
+# By Default value the Seperator between two argument is "," (comma)
+print( 10,12,30,40)
+print( 16,12,2021 )
 
+#Date
+print(4,5,2024)
 
-
-
+#                  ***********  Seperation Argument of the print Function  *************
+print(4,5,2024,sep="/")
+#Timing
+print(6,28,44)
+print(6,28,44,sep = ":")
