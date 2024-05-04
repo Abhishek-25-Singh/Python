@@ -42,3 +42,32 @@ print(4,5,2024,sep="/")
 #Timing
 print(6,28,44)
 print(6,28,44,sep = ":")
+#By Default Behaviour end parameter ka hota hain new line waala means (/n) agr Humne Kuch Bhi Nhi diya Argument 
+#Then Phir bhi Woh New line pe hi Print hoga
+#Date
+print(4,5,2024,sep="/")
+#Timing
+print(6,28,44,sep = ":")
+
+
+print(17,9,2021,sep='/')
+
+print(17,9,2021,sep=',')
+
+print(17,9,2021,sep=',')
+
+print(17,9,2021,sep='/')
+
+print(17,9,2021,sep=',')
+
+print(17,9,2021,sep=',')
+
+print(9,56,53,sep=":")
+
+print(9,56,53,sep=":")
+print(17,9,2021,sep='/')
+
+
+
+
+
