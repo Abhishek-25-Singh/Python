@@ -49,3 +49,10 @@ num = 2000
 print(num,"in hexadecimal format :",hex(num))
 print(num, " in octal format :", oct(num))
 print(num, "in binary format : " , bin(num))
+
+#The Function hex, bin , Oct Can be used to convert an integer Number into corresponding String Representation
+
+Result = hex(2000) + oct(2000) + bin(2000)
+print("Result :", Result )
+
+34' + '4'
