@@ -62,4 +62,8 @@ print("Result :", Result )
 name = input("What's your name ? ")
 age =  input("How old are you? ")
 print("hello",name,  "you are",age, "Years old")
-print("but you will be", age + 2,"years old two years later")
+# TypeError: can only concatenate str (not "int") to str
+#print("but you will be", age + 2,"years old two years later")
+
+
+
