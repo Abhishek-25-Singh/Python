@@ -96,3 +96,14 @@ print(int('0b1100100', base = 2))
 print(int('0o144', base = 8))
 # ->100
 
+#Binary number age
+name = input("What's your name ? ")
+age =int(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
+
+#Age in Octal Formate
+name = input("What's your name ? ")
+age =int(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
