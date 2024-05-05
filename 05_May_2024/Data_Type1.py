@@ -65,5 +65,21 @@ print("hello",name,  "you are",age, "Years old")
 # TypeError: can only concatenate str (not "int") to str
 #print("but you will be", age + 2,"years old two years later")
 
+#Converting a String into integer
+age = input("How old are you ?")
+print("Type of age ",type(age))
+
+#Correction 
+name = input("What's your name ? ")
+age =int(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
+#Output
+      #----> 2 age =int(  input("How old are you? "))
+      # ValueError: invalid literal for int() with base 10: 'oxf'
+print(int(100))
+#print(int('ox64'))
+#ValueError: invalid literal for int() with base 10: 'ox64'
+#print(int('0b1100100'))
 
 
