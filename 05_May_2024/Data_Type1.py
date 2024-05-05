@@ -42,3 +42,10 @@ num = 32
 print("num = ", num)
 num = 0b100000
 print("num = ", num)
+
+#Converting Integer
+
+num = 2000
+print(num,"in hexadecimal format :",hex(num))
+print(num, " in octal format :", oct(num))
+print(num, "in binary format : " , bin(num))
