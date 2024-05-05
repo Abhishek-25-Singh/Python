@@ -81,5 +81,18 @@ print(int(100))
 #print(int('ox64'))
 #ValueError: invalid literal for int() with base 10: 'ox64'
 #print(int('0b1100100'))
+#ValueError: invalid literal for int() with base 10: '0b1100100'
 
+#    ************** Converts a string representing integer in decimal format to integer ************
+print(int('100', base = 10))
+# ->100
+#Converts a string representing integer in  Hexadecimal format to integer
+print(int('0x64', base = 16))
+# ->100
+#Converts a string representing integer in Binary  format to integer
+print(int('0b1100100', base = 2))
+# ->100
+#Converts a string representing integer in Octal  format to integer
+print(int('0o144', base = 8))
+# ->100
 
