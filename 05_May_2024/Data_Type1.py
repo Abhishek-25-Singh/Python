@@ -56,3 +56,10 @@ Result = hex(2000) + oct(2000) + bin(2000)
 print("Result :", Result )
 
 34' + '4'
+
+# 34 + 'Anil'TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+name = input("What's your name ? ")
+age =  input("How old are you? ")
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
