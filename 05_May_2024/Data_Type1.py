@@ -107,3 +107,29 @@ name = input("What's your name ? ")
 age =int(  input("How old are you? "))
 print("hello",name,  "you are",age, "Years old")
 print("but you will be", age + 2,"years old two years later")
+
+#Decimal
+name = input("What's your name ? ")
+age =eval(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
+
+#Binary
+name = input("What's your name ? ")
+age =eval(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
+
+
+#Octal
+name = input("What's your name ? ")
+age =eval(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
+
+
+#Hexadecimal
+name = input("What's your name ? ")
+age =eval(  input("How old are you? "))
+print("hello",name,  "you are",age, "Years old")
+print("but you will be", age + 2,"years old two years later")
