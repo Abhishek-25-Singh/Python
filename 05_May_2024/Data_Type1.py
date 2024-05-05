@@ -36,3 +36,9 @@ print("type of ", x , " : ",type(x))
 
 result = 100 + 0o144 + 0x64 + 0b1100100
 print("Result ;",result)
+
+
+num = 32
+print("num = ", num)
+num = 0b100000
+print("num = ", num)
