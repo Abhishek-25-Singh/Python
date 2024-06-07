@@ -19,3 +19,7 @@ circumference = 2*3.14*radius
 #Using Character Map (Keystroke)
 print("Area of circle with radius ",radius,"is" ,round(area_circle,2),"cm²" )
 print("Circumference of circle with radius ",radius,"is",round(circumference,2),"cm")
+
+#Using Character map
+print("Alt+0178 :² ")
+print("Alt+0190 :¾")
