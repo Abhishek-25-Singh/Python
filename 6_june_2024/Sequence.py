@@ -23,3 +23,9 @@ print("Circumference of circle with radius ",radius,"is",round(circumference,2),
 #Using Character map
 print("Alt+0178 :² ")
 print("Alt+0190 :¾")
+
+#Unicode
+symbol ='\u00b2'
+print("Symbol :",symbol)
+symbol = '\u00BE'
+print("Symbol =",symbol)
