@@ -29,3 +29,12 @@ symbol ='\u00b2'
 print("Symbol :",symbol)
 symbol = '\u00BE'
 print("Symbol =",symbol)
+
+#In this we will round off the precision
+import math
+radius = float(input("please enter the radius of the circle in cm :"))
+area_circle = math.pi * (radius * radius)
+circumference = 2*math.pi*radius
+print("Area of circle with radius ",radius,"is" ,round(area_circle,2),"cm²" )
+print("Circumference of circle with radius ",radius,"is",round(circumference,2),"cm")
+
