@@ -11,3 +11,11 @@ area_circle = 3.14 *(radius*radius)
 Circumference = 2*3.14*radius
 print("Area Of Circle With Radius ",radius,"is",area_circle)
 print("Circumference Of Circle With Radius ",radius,"is",Circumference)
+
+#In this we will round off the precision
+radius = float(input("please enter the radius of the circle in cm :"))
+area_circle = 3.14 * (radius * radius)
+circumference = 2*3.14*radius
+#Using Character Map (Keystroke)
+print("Area of circle with radius ",radius,"is" ,round(area_circle,2),"cm²" )
+print("Circumference of circle with radius ",radius,"is",round(circumference,2),"cm")
