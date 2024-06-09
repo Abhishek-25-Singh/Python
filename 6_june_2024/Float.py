@@ -38,3 +38,10 @@ print()
 x = "Ketan"
 print("Type of",x,":",type(x))
 print("Is",x,"Of numeric type ?",isinstance(x,(int,float)))
+
+
+#Maximum Vlue o Floating Point Number can have is approximately 1.8 x 10+308
+x = 1.8E307  #Near The Maximum Value 
+print("Maximum : " ,x)
+x = 1.8E309  #Exceeds That Maximum Value 
+print("Maximum : " ,x)
