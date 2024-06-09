@@ -45,3 +45,11 @@ x = 1.8E307  #Near The Maximum Value
 print("Maximum : " ,x)
 x = 1.8E309  #Exceeds That Maximum Value 
 print("Maximum : " ,x)
+
+#The closest a non zero number can be to zero is approximately 5.0 X 10^-324
+#Anything Closer to Zero than that is effectively zero
+x = 5e-324
+print("minimum :",x)
+x=1e-325
+print("mininmum :",x)
+
