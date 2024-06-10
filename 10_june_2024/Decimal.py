@@ -15,3 +15,9 @@ print("n1 :",round(n1,3))
 #0/2 + 0/4 +1/8 
 0.1 + 0.1 + 0.1 - 0.3
 1.1 + 2.2
+
+import decimal
+print(dir(decimal))
+#important Concepts  in decimal module are 'ROUND_05UP', 'ROUND_CEILING', 'ROUND_DOWN', 'ROUND_FLOOR',
+#'ROUND_HALF_DOWN', 'ROUND_HALF_EVEN', 'ROUND_HALF_UP', 'ROUND_UP', 'Rounded', 'Subnormal', 'Context'
+#,'getcontext', 'localcontext', 'setcontext'
