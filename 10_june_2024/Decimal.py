@@ -21,3 +21,12 @@ print(dir(decimal))
 #important Concepts  in decimal module are 'ROUND_05UP', 'ROUND_CEILING', 'ROUND_DOWN', 'ROUND_FLOOR',
 #'ROUND_HALF_DOWN', 'ROUND_HALF_EVEN', 'ROUND_HALF_UP', 'ROUND_UP', 'Rounded', 'Subnormal', 'Context'
 #,'getcontext', 'localcontext', 'setcontext'
+
+from decimal import Decimal
+x = Decimal(4) # int as a argument 
+print("Decimal Value :",x)
+print("Type of x :",type(x))
+
+x = Decimal('4') # string as a argument 
+print("Decimal Value :",x)
+print("Type of x :",type(x))
