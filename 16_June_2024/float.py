@@ -64,3 +64,6 @@ print("Complex number = ",x)
 
 x = 5 + 6j
 print("Complex number = ",x)
+
+x= complex()  #no arg
+print("Complex number = ",x)
