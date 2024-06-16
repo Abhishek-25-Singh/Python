@@ -83,3 +83,7 @@ x=x+(5+6j)
 
 x = complex(input("Give me a Complex Number :"))
 print("The complex Number is",x,type(x))
+
+x = complex(input("Give me a Complex Number :"))
+print("The complex Number is",x,type(x))
+print(x,"+ 5 =",(x+5))
