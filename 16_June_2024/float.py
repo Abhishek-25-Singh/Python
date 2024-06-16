@@ -61,3 +61,6 @@ float(s)
 #Understanding Complex Number
 x = 1.5 + 1.5j
 print("Complex number = ",x)
+
+x = 5 + 6j
+print("Complex number = ",x)
