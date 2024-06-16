@@ -56,3 +56,8 @@ print("x1 =",x1)
 
 s = '67.8'
 float(s)
+
+
+#Understanding Complex Number
+x = 1.5 + 1.5j
+print("Complex number = ",x)
