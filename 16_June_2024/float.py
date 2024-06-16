@@ -20,3 +20,17 @@ print("Is Percentage is Float type :",isinstance(perc,float))
 print("Is 445 is a Numeric type :",isinstance(445,(int,float)))
 print("Is 44.5 is a Numeric type :",isinstance(44.5,(int,float)))
 
+#as_integer_ratio():
+#Return a pair of integers whose ratio is exactly equal to the original float.
+#and with a positive denominator 
+from math import pi
+print("PI :",pi)
+ #(Name_Of_The_Variable.as_integer_ratio(numerator, denominator))
+print("PI as a Fraction :", pi.as_integer_ratio())
+
+x= 0.125
+print("X as a Fraction :",x.as_integer_ratio())
+x= 21
+print("X as a Fraction :",x.as_integer_ratio())
+x= 0
+print("X as a Fraction :",x.as_integer_ratio())
