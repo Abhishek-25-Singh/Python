@@ -34,3 +34,13 @@ x= 21
 print("X as a Fraction :",x.as_integer_ratio())
 x= 0
 print("X as a Fraction :",x.as_integer_ratio())
+
+
+# Floating point in Hexadecimal point
+x = 0.125
+print("x =",x)
+hexrep = x.hex()
+print("x in hex =",hexrep)
+print("Type of hexrep = ", type(hexrep))
+x = float(hexrep,16)
+print("x =",x)
