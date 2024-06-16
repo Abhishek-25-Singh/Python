@@ -44,3 +44,12 @@ print("x in hex =",hexrep)
 print("Type of hexrep = ", type(hexrep))
 x = float(hexrep,16)
 print("x =",x)
+
+# Floating point in Hexadecimal point
+x = 0.125
+print("x =",x)
+hexStr = x.hex()
+print("x in hex =",hexStr)
+print("Type of hexStr = ", type(hexStr))
+x1 = float.fromhex(hexStr)
+print("x1 =",x1)
