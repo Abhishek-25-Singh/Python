@@ -97,3 +97,11 @@ x= complex(3.5,4.5)
 print("Complex number = ",x)
 print("Real Part =", x.real)
 print("Imaginary Part =", x.imag)
+
+#Operation on Complex Number
+c1 = 10 + 2j
+c2 = 2  + 4j
+print("Addition       =", c1 + c2)
+print("Subtraction    =", c1 - c2)
+print("Multiplication =", c1 * c2)
+print("DIvide         =", c1 / c2)
