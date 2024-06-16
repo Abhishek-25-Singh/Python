@@ -67,3 +67,6 @@ print("Complex number = ",x)
 
 x= complex()  #no arg
 print("Complex number = ",x)
+
+x= complex(4.5)  #one args
+print("Complex number = ",x)
