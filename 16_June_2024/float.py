@@ -70,3 +70,6 @@ print("Complex number = ",x)
 
 x= complex(4.5)  #one args
 print("Complex number = ",x)
+
+x= complex(4.5,1.5)  #TWO ARGS: real and imaginary
+print("Complex number = ",x)
