@@ -80,3 +80,6 @@ print("Complex number =", x)
 x = input("Give me a Complex Number :")
 print("The complex Number is",x,type(x))
 x=x+(5+6j)
+
+x = complex(input("Give me a Complex Number :"))
+print("The complex Number is",x,type(x))
