@@ -53,3 +53,6 @@ print("x in hex =",hexStr)
 print("Type of hexStr = ", type(hexStr))
 x1 = float.fromhex(hexStr)
 print("x1 =",x1)
+
+s = '67.8'
+float(s)
