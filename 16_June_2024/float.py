@@ -87,3 +87,13 @@ print("The complex Number is",x,type(x))
 x = complex(input("Give me a Complex Number :"))
 print("The complex Number is",x,type(x))
 print(x,"+ 5 =",(x+5))
+
+x= complex('3.5')  #one args
+print("Complex number = ",x)
+print("Real Part =", x.real)
+print("Imaginary Part =", x.imag)
+
+x= complex(3.5,4.5) 
+print("Complex number = ",x)
+print("Real Part =", x.real)
+print("Imaginary Part =", x.imag)
