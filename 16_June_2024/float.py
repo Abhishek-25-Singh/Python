@@ -76,3 +76,7 @@ print("Complex number = ",x)
 
 x = complex('3.5+1.5j')  # string as an argument
 print("Complex number =", x)
+
+x = input("Give me a Complex Number :")
+print("The complex Number is",x,type(x))
+x=x+(5+6j)
