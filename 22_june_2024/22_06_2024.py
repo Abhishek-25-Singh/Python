@@ -41,3 +41,23 @@ message= "This is a first line Message\n\
 And this is Second line Message \n\
 And this is Second line Message "
 message
+
+message= """This is a first line Message
+And this is Second line Message 
+And this is Second line Message """
+print(message)
+
+message= """This is a first line Message
+And this is Second line Message 
+And this is Second line Message """
+message
+
+message= '''This is a first line Message
+And this is Second line Message 
+And this is Second line Message '''
+print(message)
+
+message= '''This is a first line Message
+And this is Second line Message 
+And this is Second line Message '''
+message
