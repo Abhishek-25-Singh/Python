@@ -17,3 +17,7 @@ print(name)
 message = "This is a single line message "
 print(message)
 
+message = "This is a 
+single 
+line message "
+print(message)
