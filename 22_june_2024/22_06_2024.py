@@ -14,3 +14,6 @@ name = 'Abhishek'
 print(name)
 
 #Multi line String 
+message = "This is a single line message "
+print(message)
+
