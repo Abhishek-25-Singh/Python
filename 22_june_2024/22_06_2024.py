@@ -21,3 +21,8 @@ message = "This is a
 single 
 line message "
 print(message)
+
+message= "This is a first line Message \
+And this is Second line Message \
+And this is Second line Message "
+print(message)
